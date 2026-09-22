@@ -1,13 +1,13 @@
-package com.bookingsystem.RideBooking;
+package com.bookingsystem.Cinebook;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class RideBookingApplication {
+public class CineBookApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(RideBookingApplication.class, args);
+		SpringApplication.run(CineBookApplication.class, args);
 
 	}
 

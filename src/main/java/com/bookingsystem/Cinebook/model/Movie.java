@@ -1,4 +1,4 @@
-package com.bookingsystem.RideBooking.model;
+package com.bookingsystem.Cinebook.model;
 
 import jakarta.persistence.*;
 

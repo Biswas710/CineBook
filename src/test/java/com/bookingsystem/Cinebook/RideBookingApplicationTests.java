@@ -1,4 +1,4 @@
-package com.bookingsystem.RideBooking;
+package com.bookingsystem.Cinebook;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
