@@ -13,15 +13,12 @@ public class MovieService {
     public void add(Movie movie) {
          movieRepository.save(movie);
     }
-
     public Movie getMovies(Long id) {
         return movieRepository.getById(id);
     }
-
     public List<Movie> getMoviesByGenre(String genre) {
         return movieRepository.getMoviesByGenre(genre);
     }
-
     public List<Movie> getAllMovies() {
         return movieRepository.findAll();
     }
