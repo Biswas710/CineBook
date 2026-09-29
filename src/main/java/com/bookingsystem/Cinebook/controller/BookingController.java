@@ -35,4 +35,9 @@ public class BookingController {
     List<Booking> getAllBookMovie(@PathVariable Long id){
         return bookingService.getAllBookMovie(id);
     }
+    @DeleteMapping("/deleteBooking/{id}")
+    ResponseEntity<String>deleteIt(@PathVariable Long id){
+        bookingService.deleteBooking(id);
+        return ResponseEntity.ok("Successfully Deleted");
+    }
 }
