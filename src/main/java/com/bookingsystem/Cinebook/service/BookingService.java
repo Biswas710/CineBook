@@ -32,9 +32,6 @@ public class BookingService {
         return bookingRepository.findByUserId(id);
     }
 
-    public List<Booking> getAllBookMovie(Long id) {
-        return bookingRepository.findByMovieId(id);
-    }
 
     public ResponseEntity<String> deleteBooking(Long id) {
         bookingRepository.deleteById(id);

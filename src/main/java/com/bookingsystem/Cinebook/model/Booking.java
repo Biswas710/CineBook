@@ -20,11 +20,10 @@ public class Booking {
     private User user;
 
     @ManyToOne
-    @JoinColumn(name = "movie_id")
-    private Movie movie;
+    @JoinColumn(name = "show_id")
+    private Show show;
 
-    public Booking() {
-    }
+
 
 
     public Long getId() {
@@ -67,11 +66,11 @@ public class Booking {
         this.user = user;
     }
 
-    public Movie getMovie() {
-        return movie;
+    public Show getShow() {
+        return show;
     }
 
-    public void setMovie(Movie movie) {
-        this.movie = movie;
+    public void setShow(Movie movie) {
+        this.show= show;
     }
 }

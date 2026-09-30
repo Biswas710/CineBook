@@ -31,10 +31,7 @@ public class BookingController {
     List<Booking> getAllBookOfUser(@PathVariable Long id){
         return bookingService.getAllBookOfUser(id);
     }
-    @GetMapping("/getBookingMovie/{id}")
-    List<Booking> getAllBookMovie(@PathVariable Long id){
-        return bookingService.getAllBookMovie(id);
-    }
+
     @DeleteMapping("/deleteBooking/{id}")
     ResponseEntity<String>deleteIt(@PathVariable Long id){
         bookingService.deleteBooking(id);
